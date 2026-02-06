@@ -7,7 +7,7 @@ QQ 开放平台 Bot API 的 Openclaw 渠道插件，支持 C2C 私聊、群聊 @
 [![npm version](https://img.shields.io/badge/npm-v1.3.7-blue)](https://www.npmjs.com/package/@sliverp/qqbot)
 [![License](https://img.shields.io/badge/license-MIT-green)](./LICENSE)
 [![QQ Bot](https://img.shields.io/badge/QQ_Bot-API_v2-red)](https://bot.q.qq.com/wiki/)
-[![Platform](https://img.shields.io/badge/platform-Moltbot-orange)](https://github.com/sliverp/moltbot)
+[![Platform](https://img.shields.io/badge/platform-Openclaw-orange)](https://github.com/sliverp/openclaw)
 [![Node.js](https://img.shields.io/badge/Node.js->=18-339933)](https://nodejs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.9-3178C6)](https://www.typescriptlang.org/)
 
@@ -32,14 +32,14 @@ QQ 开放平台 Bot API 的 Openclaw 渠道插件，支持 C2C 私聊、群聊 @
 - ⌨️ **输入状态** - Bot 正在输入中状态提示
 - 🔄 **热更新** - 支持 npm 方式安装和热更新
 - 📝 **Markdown** - 支持 Markdown 格式（即将更新）
+- 📝 **Command** - 支持Openclaw原生命令
 
   
 ---
 
 ## ⭐ Star 趋势
 <div align="center">
-
-[![Star History Chart](https://api.star-history.com/svg?repos=sliverp/qqbot&type=date&legend=top-left)](https://www.star-history.com/#sliverp/qqbot&type=date&legend=top-left)
+<img width="666" height="464" alt="star-history-202626" src="https://github.com/user-attachments/assets/e4f0df0c-d99f-4db0-853f-1c51b2377ff8" />
 </div>
 
 ---
@@ -181,6 +181,14 @@ clawdbot gateway restart
 <summary><b>v1.4.0（即将更新）</b></summary>
 
 - 支持 Markdown 格式
+
+</details>
+
+<details>
+<summary><b>v1.3.13 - 2026.02.06</b></summary>
+
+- ✨ 支持Openclawd内置指令“/compact" , "/new"等（注意，/reset等命令有危险性，非常不建议把Bot拉入群聊）
+- 🐛 修复在一些情况下”正在输入“不生效的问题
 
 </details>
 
